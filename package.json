@@ -1,0 +1,33 @@
+{
+  "name": "cw-tool",
+  "version": "1.0.3",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "cw-tool": "./bin/index.js",
+    "cw-tool-run": "./bin/run.js",
+    "cw-tool-test": "./bin/test.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cw-tool"
+  ],
+  "author": "zhangwei",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "colorful": "^2.1.0",
+    "commander": "^4.1.1",
+    "gulp": "^4.0.2",
+    "koa": "^2.11.0",
+    "koa-static": "^5.0.0",
+    "shelljs": "^0.8.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}

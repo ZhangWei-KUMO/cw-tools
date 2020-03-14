@@ -1,0 +1,6 @@
+node_modules
+testProject/node_modules
+**/node_modules
+dist
+yarn.lock
+package-lock.json
